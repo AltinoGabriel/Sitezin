@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .lista-compras {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lista-compras h1 {
+    text-align: center;
+  }
+  
+  .lista-compras ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .lista-compras li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .lista-compras li:last-child {
+    border-bottom: none;
+  }
+  
+  .lista-compras li:hover {
+    background-color: #f9f9f9;
+  }
+  

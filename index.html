@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Compras</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="lista-compras">
+    <h1>Lista de Compras</h1>
+    <input type="text" id="novoItem" placeholder="Digite um novo item">
+    <button onclick="adicionarItem()">Adicionar Item</button>
+    <button onclick="removerItens()">Remover Itens Selecionados</button>
+    <ul id="lista">
+    </ul>
+  </div>
+  <div class="historico-compras">
+    <h2>Histórico de Compras</h2>
+    <ul id="historico">
+    </ul>
+  </div>
+  <script src="ComprasJS.js"></script>
+</body>
+</html>
